@@ -3,8 +3,9 @@
 
 const firstArg = process.argv[2];
 
+
 if (firstArg === undefined || isNaN(parseInt(firstArg))) {
-  console.log('not a number');
+  console.log('Not a number');
 } else {
-  onsole.log('My number: ', parseInt(firstArg));
+  console.log('My number:', parseInt(firstArg));
 }
